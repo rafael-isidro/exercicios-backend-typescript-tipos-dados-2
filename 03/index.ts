@@ -41,10 +41,6 @@ const registerUser = (user: User): User => {
   return user;
 };
 
-const getUsers = (): User[] => {
-  return fileReader() as User[];
-};
-
 const detailUser = (cpf: string): User => {
   const bd = fileReader() as User[];
   const userFound = bd.find((user) => user.cpf === cpf);
@@ -65,6 +61,10 @@ const updateUser = (cpf: string, data: User): User => {
   writeFileSync("./bd.json", JSON.stringify(bd));
   return userFound;
 };
+
+const getUsers = (): User[] => {
+    return fileReader() as User[];
+  };
 
 function fileReader(): unknown {
   if (existsSync("./bd.json"))
