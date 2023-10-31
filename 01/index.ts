@@ -13,5 +13,3 @@ const data = fileReader(filePath) as string[];
 
 data.push("Aí?");
 fileWritter(filePath, data);
-
-console.log(fileReader(filePath));
