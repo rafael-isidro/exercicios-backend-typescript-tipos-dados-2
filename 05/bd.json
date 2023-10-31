@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Arodo Sobrenome",
+        "email": "Exemplo2@email.com",
+        "cpf": "002.444.222-00",
+        "profissao": "Desenvolvedor Backend",
+        "endereco": {
+            "cep": "100002-000",
+            "rua": "B",
+            "bairro": "Liberdade",
+            "cidade": "São Paulo"
+        }
+    },
+    {
+        "nome": "Arodo Sobrenome",
+        "email": "Exemplo2@email.com",
+        "cpf": "002.444.333-00",
+        "profissao": "Médico",
+        "endereco": {
+            "cep": "100002-000",
+            "rua": "B",
+            "bairro": "Liberdade",
+            "cidade": "São Paulo"
+        }
+    }
+]
